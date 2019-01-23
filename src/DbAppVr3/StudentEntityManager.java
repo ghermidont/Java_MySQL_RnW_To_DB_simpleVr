@@ -1,11 +1,12 @@
-package DBAppVr3F;
+package DbAppVr3;
 
 import java.sql.*;
 import java.util.ArrayList;
 //import java.util.Scanner;
 
-public class StudentEntityManager {
+class StudentEntityManager {
     private static ArrayList<Student> studentList = new ArrayList<>();
+
     // метод который записывает в ДБ 1 студента
     void add(Student student){
         String sql = "INSERT INTO students VALUES( "+student.getId()+", '"+student.getFirstname()+"', '"+student.getLastname()+"', "+student.getYear_of_birth()+", "+student.getAverage_mark()+" )"; //the letter to be sent
@@ -52,7 +53,7 @@ public class StudentEntityManager {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
         return studentList;
     }
+
 }

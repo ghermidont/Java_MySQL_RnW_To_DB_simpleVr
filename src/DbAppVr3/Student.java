@@ -1,18 +1,12 @@
-package DBAppVr3F;
+package DbAppVr3;
 
 public class Student {
-    // предположим есть класс
-// этот класс мы будем называть условно "сущность"
-// так как каждый обьект класс будет иметь связь с БД
-    /**
-     ENTITY
-     */
-        private Integer id;             // какой номер имеет данный студент в БД
-        private String firstname;       //
-        private String lastname;       //
-        private Integer year_of_birth;  // год рождения
-        private Float average_mark;        // оценка
-        // + constructor,get/set,toString
+
+        private Integer id;
+        private String firstname;
+        private String lastname;
+        private Integer year_of_birth;
+        private Float average_mark;
 
     public Student(Integer id, String firstname, String lastname, Integer year_of_birth, Float average_mark) {
         this.id = id;

@@ -1,4 +1,4 @@
-package DBAppVr3F;
+package DbAppVr3;
 
 import java.sql.*;
 
