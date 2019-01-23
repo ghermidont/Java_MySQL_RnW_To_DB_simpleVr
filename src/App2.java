@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 import java.sql.*;
 
 public class App2 {
@@ -114,4 +114,4 @@ public class App2 {
 }
 
 
-//ALTER TABLE students ADD COLUMN age INT(2);
+//ALTER TABLE students ADD COLUMN age INT(2);*/
