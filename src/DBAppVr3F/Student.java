@@ -1,4 +1,4 @@
-package App3;
+package DBAppVr3F;
 
 public class Student {
     // предположим есть класс
